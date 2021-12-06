@@ -1,0 +1,187 @@
+{
+    "name": "JERRY BOT",
+    "logo": "https://telegra.ph//file/786f1b79cce5b8f223f8a.jpg",
+    "description": "A SIMPLE YET POWERFUL GROUO MANAGER BOT .HAS MORE FEATURES THAN RISE BOT. GIVES MOVIES IN GROUPS,INLINE AND IN PM,DELETED IMDB TO AVOID COPYRIGHG BAN.SUPPORTS FEDERATONS",
+    "keywords": [
+        "group",
+        "movie",
+        "manager",
+        "autofilter",
+        "filter",
+        "rosebot",
+        "best"
+    ],
+    "repository": "https://github.com/StillaliveTG/Evil-Inside",
+    "env": {
+        "ALLOW_EXC": {
+            "description": "Set this to True if you want ! to be a command prefix along with /",
+            "required": "True",
+            "value": "True"
+        },
+        "BAN_STICKER": {
+            "description": "ID of the sticker you want to use when banning people. Watch Video (check out Redme.md)",
+            "required": "False",
+            "value": "CAACAgUAAxkBAAEBsEphrjR4jby0fcqKrJBKNGnlk_5RhwACoQIAAibqeFXeNqfPvsliaR4E"
+        },
+        "DEL_CMDS": {
+            "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command",
+            "required": "True",
+            "value": "Talse"
+        },
+        "ENV": {
+            "description": "Setting this to ANYTHING will enable environment variables",
+            "required": "True"
+        },
+        "SQLALCHEMY_DATABASE_URI": {
+            "description": "Your postgres sql db, empty this field if you dont have one. Watch Video (check out Redme.md)",
+            "required": "False"
+        },
+        "OWNER_ID": {
+            "description": "Your user ID as an integer",
+            "required": "True",
+            "value": "1690854926"
+        },
+        "OWNER_NAME": {
+            "description": "your username",
+            "required": "True",
+            "value": "Dhalapathy_vijay"
+        },
+        "DEV_USERS": {
+            "description": "ID of users who are Dev (can use /py etc.)",
+            "required": "False",
+            "value": "1690854926"
+        },
+        "START_PIC": {
+            "description": "Telegraph link of Image shows when hit /start",
+            "required": "True"
+        },
+        "GBAN_LOGS": {
+            "description": "Gban log channel",
+            "required": "True"
+        },
+        "CASH_API_KEY": {
+            "description": "Required for currency converter",
+            "required": "True"
+        },
+        "TIME_API_KEY": {
+            "description": "Required for timezone information Watch Video (check out Redme.md)",
+            "required": "True"
+        },
+        "AI_API_KEY": {
+            "description": "for activate chatbot",
+            "required": "True"
+        },
+        "API_OPENWEATHER": {
+            "description": "Required for weather information Watch Video (check out Redme.md)",
+            "required": "True"
+        },
+        "PORT": {
+            "description": "Port to use for your webhooks.",
+            "required": "False"
+        },
+        "STRICT_GBAN": {
+            "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned",
+            "required": "True",
+            "value": "True"
+        },
+        "SUDO_USERS": {
+            "description": "A space separated list of user IDs who you want to assign as sudo users.",
+            "required": "False",
+            "value": "1690854926"
+        },
+        "TIGER_USERS": {
+            "description": "Lower version of SUDO",
+            "required": "False",
+            "value": "1690854926"
+        },
+        "TOKEN": {
+            "description": "Your bot token from @botfather",
+            "required": "True"
+        },
+        "URL": {
+            "description": "Your heroku app url",
+            "required": "True",
+            "value": "URL ",
+            "generator": "secret"
+        },
+        "WEBHOOK": {
+            "description": "Setting this to ANYTHING will enable webhooks",
+            "required": "False",
+            "value": "ANYTHING"
+        },
+        "WHITELIST_USERS": {
+            "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
+            "required": "False",
+            "value": "1690854926"
+        },
+        "API_ID": {
+            "description": "Get this value from https",
+            "required": "True",
+            "value": "//my.telegram.org"
+        },
+        "API_HASH": {
+            "description": "Get this value from https",
+            "required": "True",
+            "value": "//my.telegram.org"
+        },
+        "CHANNELS": {
+            "description": "Your Autofilterbot Database Channel",
+            "required": "True"
+        },
+        "AUTH_CHANNEL": {
+            "description": "Force Subscribe Channel Make bot admin there",
+            "required": "False",
+            "value": "-1001472327953"
+        },
+        "USE_CAPTION_FILTER": {
+            "description": "Whether bot should use captions to improve search results. (True False)",
+            "required": "False",
+            "value": "True"
+        },
+        "CUSTOM_FILE_CAPTION": {
+            "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding",
+            "required": "False",
+            "value": "@NCM_LINKS {file_name}"
+        },
+        "AUTH_GROUP": {
+            "description": "ID of groups which bot should work as autofilter, bot can only work in thease groups. If not given , bot can be used in any group",
+            "required": "False"
+        },
+        "DATABASE_URI": {
+            "description": "mongoDB URI. Get this value from https",
+            "required": "True",
+            "value": "//www.mongodb.com. For more help watch this video - https"
+        },
+        "DATABASE_NAME": {
+            "description": "mongoDB URI. Get this value from https",
+            "required": "True",
+            "value": "//www.mongodb.com. For more help watch this video - https"
+        },
+        "COLLECTION_NAME": {
+            "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
+            "required": "True",
+            "value": "Telegram_files"
+        },
+        "CACHE_TIME": {
+            "description": "The maximum amount of time in seconds that the result of the inline query may be cached on the server",
+            "required": "False",
+            "value": "300"
+        },
+        "BOT_TOKEN": {
+            "description": "Give same value of the var TOKEN",
+            "required": "True"
+        }
+    },
+    "stack": "heroku-20",
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
