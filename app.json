@@ -178,7 +178,7 @@
          "description": "Your bot token.",
          "required": true,
          "value": ""
-    },
+        },
     "addons": [],
     "buildpacks": [
         {
