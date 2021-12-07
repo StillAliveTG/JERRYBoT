@@ -141,14 +141,14 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_photo(
                 START_PHOTTO,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="𝙷𝙴𝙻𝙿",
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="𝗛𝗘𝗟𝗣",
                                                                        callback_data="help_back".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="𝙲𝙷𝙰𝙽𝙽𝙴𝙻",
-                                                                       url="t.me/M_STER_TECH")],
-                                                                                   [InlineKeyboardButton(text= "𝙳𝙴𝙿𝙻𝙾𝚈",
-                                                                       url="https://youtu.be/Bz8AUvN5bSo"),
-                                                                                   InlineKeyboardButton(text="𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴",
-                                                                       url="https://github.com/PANDITHAN/Evil-Inside")
+                                                                                   InlineKeyboardButton(text="𝗨𝗣𝗗𝗔𝗧𝗘 𝗖𝗛𝗔𝗡𝗡𝗘𝗟",
+                                                                       url="t.me/S_BOTS")],
+                                                                                   [InlineKeyboardButton(text= "𝗠𝗢𝗩𝗜𝗘 𝗕𝗢𝗧",
+                                                                       url="https://T.ME/TOM_MOVIE_BOT"),
+                                                                                   InlineKeyboardButton(text="𝗠𝗢𝗩𝗜𝗘 𝗚𝗥𝗢𝗨𝗣",
+                                                                       url="https:/t.ME/NEW_CINEMA_MALL")
                                                                                  ]]))
 
     else:
