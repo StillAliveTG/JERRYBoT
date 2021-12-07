@@ -37,7 +37,7 @@ def covid(bot: Bot, update: Update):
 
 __help__ = """
  
- - How To Deploy => https://youtu.be/Bz8AUvN5bSo
+ - സോറി ഡാ കോഡ് പ്രൈവറ്റ് ആണു 
 """
 
 __mod_name__ = 'Deploy'
