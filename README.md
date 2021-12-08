@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="JerryBoT/IMG_20211206_211533_262.jpg" alt="Jerry Bot Logo">
+  <img src="https://github.com/StillAliveTG/JERRYBoT/blob/main/JerryBoT/IMG_20211206_170125_049.jpg" alt="Jerry Bot Logo">
 </p>
 <h1 align="center">
   <b>Evil-Inside</b>
