@@ -2,7 +2,7 @@
   <img src="https://github.com/StillAliveTG/JERRYBoT/blob/main/JerryBoT/IMG_20211206_170125_049.jpg" alt="Jerry Bot Logo">
 </p>
 <h1 align="center">
-  <b>Evil-Inside</b>
+  <b>𝐉𝐄𝐑𝐑𝐘 𝐁𝐎𝐓</b>
 </h1>
 
 DEMO BOT - [Evil-Inside](https://telegram.dog/Evil_Inside_robot)
