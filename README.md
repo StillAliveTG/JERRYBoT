@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="PANDITHAN/Evil-Inside.jpeg" alt="Evil-Inside Logo">
+  <img src="JerryBoT/IMG_20211206_211533_262.jpg" alt="Jerry Bot Logo">
 </p>
 <h1 align="center">
   <b>Evil-Inside</b>
