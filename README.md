@@ -57,7 +57,7 @@ Hello i am TELEGRAM GROUP MANAGEMENT BOT MY NAME IS Evil-Inside ⚡ i have both 
 
 
 # 𝐃𝐞𝐩𝐥𝐨𝐲 𝐓𝐨 𝐇𝐞𝐫𝐨𝐤𝐮
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/StillaliveTG/evil-inside)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/StillaliveTG/JerryBoT)
 
  
 # 𝐂𝐨𝐧𝐟𝐢𝐠 𝐕𝐚𝐫𝐬
